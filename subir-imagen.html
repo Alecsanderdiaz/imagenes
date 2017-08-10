@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subir-Imagen</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <h1>Formulario para carga de Imagenes</h1>
+    <form action="/subir-imagen" method="post" enctype="multipart/form-data">
+        <label>Nombre del Bucket</label>
+        <input type="text" name="bucket">
+        <label >Imagen a cargar</label>
+        <input type="file" name="avatar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
